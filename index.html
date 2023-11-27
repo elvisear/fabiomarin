@@ -1,151 +1,268 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Texto de descrição resumida da página"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Texto de descrição resumida da página" />
     <title>Fábio Marin</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
     <header class="cabecalho">
-        <img class="cabecalho-logo" src="./img/logo.png" alt="Logo Fábio Marin">
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="#gestor">Gestor</a>
-            <a class="cabecalho-menu-item" href="#metodo">Método</a>
-            <a class="cabecalho-menu-item" href="#solucoes">Soluções</a>
-            <a class="cabecalho-menu-item" href="#clientes">Clientes</a>
-        </nav>
-        <button class="cabecalho-menu-botao">BAIXAR EBOOK</button>
+      <img class="cabecalho-logo" src="./img/logo.png" alt="Logo Fábio Marin" />
+      <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item" href="#gestor">Gestor</a>
+        <a class="cabecalho-menu-item" href="#metodo">Método</a>
+        <a class="cabecalho-menu-item" href="#solucoes">Soluções</a>
+        <a class="cabecalho-menu-item" href="#clientes">Clientes</a>
+      </nav>
+      <button class="cabecalho-menu-botao">BAIXAR EBOOK</button>
+      <div class="topo">
+        <a id="btn-topo" onclick="backToTop()">
+          <i class="fa-solid fa-sort-up"></i>
+        </a>
+      </div>
     </header>
     <main class="conteudo">
-        <section class="conteudo-principal">
-            <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo"><strong>Clareza</strong> e <Strong>Direcionamento</strong> para <strong>Crescer</strong> sua Empresa de forma <strong>Profissional</strong></h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">O Método Milli Uma Soluções destrava o crescimento do seu negócio, eliminando o caos criando uma empresa estruturada e organizada</h2>
-                <button class="conteudo-principal-escrito-botao">BAIXAR EBOOK</button>
-            </div>
-        </section>
-        <section class="gestor" id="gestor">
-            <div class="linha"></div>
-            <h3 class="gestor-titulo">
-                <strong>CONHEÇA O GESTOR</strong>
-            </h3>
-            <p class="gestor-paragrafo">Você está procurando maneiras de aumentar a rentabilidade e eficiência do seu negócio?</p>
-            <div class="gestor-apresentacao">
-                <img class="gestor-imagem" src="./img/fabio.png" alt="Foto do Fábio Marin">
-                <p>Prazer, me chamo <strong>Fábio Marin</strong>, sou um dos sócios da Milli Uma Soluções Corporativas, 
-                    uma empresa que atua há mais de 20 anos com consultoria especializada em Gestão Estratégica de Negócios e Pessoas.</p>  
-                <p>Com nossa consultoria e assessoria especializada, somos capazes de oferecer soluções empresariais personalizadas 
-                    que se concentram em ajudar nossos clientes a alcançar a excelência em suas ações negociais.</p>
-                <p>Nossa equipe experiente trabalha para garantir maior rentabilidade, assertividade e eficiência, 
-                    bem como melhor gestão e crescimento contínuo.</p>    
-                <p>Nós sabemos que cada empresa é única, por isso, nossos serviços são adaptados para atender às necessidades 
-                    específicas de nossos clientes. Além disso, nossos conteúdos personalizados, atuais e engajadores promovem soluções assertivas, 
-                    baseadas em mudanças comportamentais que geram resultados.</p>    
-                <p>Nós nos esforçamos para ser um parceiro valioso para nossos clientes, ajudando-os a alcançar seus objetivos 
-                    de negócios de maneira eficaz e eficiente. Não perca mais tempo e entre em contato conosco hoje mesmo para descobrir como podemos ajudá-lo a 
-                    impulsionar o sucesso de sua empresa!</p>
-            </div>
-        </section>
-        <section class="metodo" id="metodo">
-            <div class="linha"></div>
-            <h2 class="metodo-titulo">O <strong>MÉTODO</strong> que faz empresas <strong>CRESCEREM</strong> de forma <strong>ESTRUTURADA e ORGANIZADA</strong>, atingindo um novo nível de <strong>gestão e resultados</strong></h2>
-            <img class="metodo-estruturar-imagem imagem-item" src="./img/estruturar.png" alt="">
-            <h3 class="metodo-estruturar-titulo"><strong>ESTRUTURAR</strong></h3>
-            <p class="metodo-estruturar-paragrafo">Estruturar e padronizar <strong>processos</strong>, gerando maior profissionalismo no seu negócio</p>
-            <img class="metodo-implantar-imagem imagem-item" src="./img/implantar.png" alt="">
-            <h3 class="metodo-implantar-titulo"><strong>IMPLANTAR</strong></h3>
-            <p class="metodo-implantar-paragrafo">Implantar uma <strong>nova cultura de gestão</strong> por processos, gestão estratégica de pessoas, indicadores e resultados</p>
-            <img class="metodo-capacitar-imagem imagem-item" src="./img/capacitar.svg" alt="">
-            <h3 class="metodo-capacitar-titulo"><strong>CAPACITAR</strong></h3>
-            <p class="metodo-capacitar-paragrafo"><strong>Capacitar e treinar</strong> a equipe para melhorar a produtividade e aumentar o engajamento</p>
-            <img class="metodo-medir-imagem imagem-item" src="./img/medir.svg" alt="">
-            <h3 class="metodo-medir-titulo"><strong>MEDIR</strong></h3>
-            <P class="metodo-medir-paragrafo">Tomar decisões mais assertivas com bases em <strong>indicadores e resultados</strong></P>
-            <img class="metodo-aprimorar-imagem imagem-item" src="./img/aprimorar.svg" alt="">
-            <h3 class="metodo-aprimorar-titulo"><strong>APRIMORAR</strong></h3>
-            <p class="metodo-aprimorar-paragrafo">Buscar <strong>melhoria contínua</strong> de processos e pessoas</p>
-        </section>
-        <section class="solucoes" id="solucoes">
-            <div class="linha"></div>
-            <h3 class="solucoes-titulo"><strong>NOSSAS SOLUÇÕES</strong></h3>
-            <div class="solucoes-grupo">
-                <div class="solucoes-cards">
-                    <h4 class="solucoes-consultoria-titulo">Consultoria Estratégica</h4>
-                    <div class="linha-cards"></div>
-                    <p class="solucoes-consultoria-paragrafo">Reengenharia e reorganização empresarial</p>
-                </div>
-                <div class="solucoes-cards">
-                    <h4 class="solucoes-rs">R&S</h4>
-                    <div class="linha-cards"></div>
-                    <p class="solucoes-rs-paragrafo">Recrutamento e Seleção por competências</p>
-                </div>
-            </div>
-            <div class="solucoes-grupo">
-                <div class="solucoes-cards">
-                    <h4 class="solucoes-td">T&D</h4>
-                    <div class="linha-cards"></div>
-                    <p class="solucoes-td-paragrafo">Palestras, treinamento, workshops e cursos</p>
-                </div>
-                <div class="solucoes-cards">
-                    <h4 class="solucoes-pco">PCO</h4>
-                    <div class="linha-cards"></div>
-                    <p class="solucoes-pco-paragrafo">Pesquisa de clima orcanizacional</p>
-                </div>
-            </div>
-            <div class="solucoes-grupo">
-                <div class="solucoes-cards">
-                    <h4 class="solucoes-sipat">SIPATs</h4>
-                    <div class="linha-cards"></div>
-                    <p class="solucoes-sipat-paragrafo">Semana Interna de Prevenção a Doenças e Acidentes de Trabalho</p>
-                </div>
-                <div class="solucoes-cards">
-                    <h4 class="solucoes-pcs">PCS</h4>
-                    <div class="linha-cards"></div>
-                    <p class="solucoes-pcs-paragrafo">Plano de Cargos e Salários para empresas</p>
-                </div>
-            </div>
-        </section>
-        <section class="clientes" id="clientes">
-            <div class="linha"></div>
-            <h3 class="clientes-titulo">Algumas Empresas que Confiam em Nosso Trabalho</h3>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente01.svg" alt="">
-                <img src="./img/clientes/cliente02.svg" alt="">
-            </div>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente03.svg" alt="">
-                <img src="./img/clientes/cliente04.svg" alt="">
-            </div>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente05.svg" alt="">
-                <img src="./img/clientes/cliente06.svg" alt="">
-            </div>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente07.svg" alt="">
-                <img src="./img/clientes/cliente08.svg" alt="">
-            </div>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente09.svg" alt="">
-                <img src="./img/clientes/cliente10.svg" alt="">
-            </div>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente11.svg" alt="">
-                <img src="./img/clientes/cliente12.svg" alt="">
-            </div>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente13.svg" alt="">
-                <img src="./img/clientes/cliente14.svg" alt="">
-            </div>
-            <div class="clientes-bloco">
-                <img src="./img/clientes/cliente15.svg" alt="">
-                <img src="./img/clientes/cliente16.svg" alt="">
-            </div>
-        </section>
+      <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+          <h1 class="conteudo-principal-escrito-titulo">
+            <strong>Clareza</strong> e <strong>Direcionamento</strong> para
+            <strong>Crescer</strong> sua Empresa de forma
+            <strong>Profissional</strong>
+          </h1>
+          <h2 class="conteudo-principal-escrito-subtitulo">
+            O Método Milli Uma Soluções destrava o crescimento do seu negócio,
+            eliminando o caos criando uma empresa estruturada e organizada
+          </h2>
+          <button class="conteudo-principal-escrito-botao">BAIXAR EBOOK</button>
+        </div>
+      </section>
+      <section class="gestor" id="gestor">
+        <div class="linha"></div>
+        <h3 class="gestor-titulo">
+          <strong>CONHEÇA O GESTOR</strong>
+        </h3>
+        <p class="gestor-paragrafo">
+          Você está procurando maneiras de aumentar a rentabilidade e eficiência
+          do seu negócio?
+        </p>
+        <div class="gestor-apresentacao">
+          <img
+            class="gestor-imagem"
+            src="./img/fabio.png"
+            alt="Foto do Fábio Marin"
+          />
+          <p>
+            Prazer, me chamo <strong>Fábio Marin</strong>, sou um dos sócios da
+            Milli Uma Soluções Corporativas, uma empresa que atua há mais de 20
+            anos com consultoria especializada em Gestão Estratégica de Negócios
+            e Pessoas.
+          </p>
+          <p>
+            Com nossa consultoria e assessoria especializada, somos capazes de
+            oferecer soluções empresariais personalizadas que se concentram em
+            ajudar nossos clientes a alcançar a excelência em suas ações
+            negociais.
+          </p>
+          <p>
+            Nossa equipe experiente trabalha para garantir maior rentabilidade,
+            assertividade e eficiência, bem como melhor gestão e crescimento
+            contínuo.
+          </p>
+          <p>
+            Nós sabemos que cada empresa é única, por isso, nossos serviços são
+            adaptados para atender às necessidades específicas de nossos
+            clientes. Além disso, nossos conteúdos personalizados, atuais e
+            engajadores promovem soluções assertivas, baseadas em mudanças
+            comportamentais que geram resultados.
+          </p>
+          <p>
+            Nós nos esforçamos para ser um parceiro valioso para nossos
+            clientes, ajudando-os a alcançar seus objetivos de negócios de
+            maneira eficaz e eficiente. Não perca mais tempo e entre em contato
+            conosco hoje mesmo para descobrir como podemos ajudá-lo a
+            impulsionar o sucesso de sua empresa!
+          </p>
+        </div>
+      </section>
+      <section class="metodo" id="metodo">
+        <div class="linha"></div>
+        <h2 class="metodo-titulo">
+          O <strong>MÉTODO</strong> que faz empresas
+          <strong>CRESCEREM</strong> de forma
+          <strong>ESTRUTURADA e ORGANIZADA</strong>, atingindo um novo nível de
+          <strong>gestão e resultados</strong>
+        </h2>
+        <img
+          class="metodo-estruturar-imagem imagem-item"
+          src="./img/estruturar.png"
+          alt=""
+        />
+        <h3 class="metodo-estruturar-titulo"><strong>ESTRUTURAR</strong></h3>
+        <p class="metodo-estruturar-paragrafo">
+          Estruturar e padronizar <strong>processos</strong>, gerando maior
+          profissionalismo no seu negócio
+        </p>
+        <img
+          class="metodo-implantar-imagem imagem-item"
+          src="./img/implantar.png"
+          alt=""
+        />
+        <h3 class="metodo-implantar-titulo"><strong>IMPLANTAR</strong></h3>
+        <p class="metodo-implantar-paragrafo">
+          Implantar uma <strong>nova cultura de gestão</strong> por processos,
+          gestão estratégica de pessoas, indicadores e resultados
+        </p>
+        <img
+          class="metodo-capacitar-imagem imagem-item"
+          src="./img/capacitar.svg"
+          alt=""
+        />
+        <h3 class="metodo-capacitar-titulo"><strong>CAPACITAR</strong></h3>
+        <p class="metodo-capacitar-paragrafo">
+          <strong>Capacitar e treinar</strong> a equipe para melhorar a
+          produtividade e aumentar o engajamento
+        </p>
+        <img
+          class="metodo-medir-imagem imagem-item"
+          src="./img/medir.svg"
+          alt=""
+        />
+        <h3 class="metodo-medir-titulo"><strong>MEDIR</strong></h3>
+        <p class="metodo-medir-paragrafo">
+          Tomar decisões mais assertivas com bases em
+          <strong>indicadores e resultados</strong>
+        </p>
+        <img
+          class="metodo-aprimorar-imagem imagem-item"
+          src="./img/aprimorar.svg"
+          alt=""
+        />
+        <h3 class="metodo-aprimorar-titulo"><strong>APRIMORAR</strong></h3>
+        <p class="metodo-aprimorar-paragrafo">
+          Buscar <strong>melhoria contínua</strong> de processos e pessoas
+        </p>
+      </section>
+      <section class="solucoes" id="solucoes">
+        <div class="linha"></div>
+        <h3 class="solucoes-titulo"><strong>NOSSAS SOLUÇÕES</strong></h3>
+        <div class="solucoes-grupo">
+          <div class="solucoes-cards">
+            <h4 class="solucoes-consultoria-titulo">Consultoria Estratégica</h4>
+            <div class="linha-cards"></div>
+            <p class="solucoes-consultoria-paragrafo">
+              Reengenharia e reorganização empresarial
+            </p>
+          </div>
+          <div class="solucoes-cards">
+            <h4 class="solucoes-rs">R&S</h4>
+            <div class="linha-cards"></div>
+            <p class="solucoes-rs-paragrafo">
+              Recrutamento e Seleção por competências
+            </p>
+          </div>
+        </div>
+        <div class="solucoes-grupo">
+          <div class="solucoes-cards">
+            <h4 class="solucoes-td">T&D</h4>
+            <div class="linha-cards"></div>
+            <p class="solucoes-td-paragrafo">
+              Palestras, treinamento, workshops e cursos
+            </p>
+          </div>
+          <div class="solucoes-cards">
+            <h4 class="solucoes-pco">PCO</h4>
+            <div class="linha-cards"></div>
+            <p class="solucoes-pco-paragrafo">
+              Pesquisa de clima orcanizacional
+            </p>
+          </div>
+        </div>
+        <div class="solucoes-grupo">
+          <div class="solucoes-cards">
+            <h4 class="solucoes-sipat">SIPATs</h4>
+            <div class="linha-cards"></div>
+            <p class="solucoes-sipat-paragrafo">
+              Semana Interna de Prevenção a Doenças e Acidentes de Trabalho
+            </p>
+          </div>
+          <div class="solucoes-cards">
+            <h4 class="solucoes-pcs">PCS</h4>
+            <div class="linha-cards"></div>
+            <p class="solucoes-pcs-paragrafo">
+              Plano de Cargos e Salários para empresas
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="clientes" id="clientes">
+        <div class="linha"></div>
+        <h3 class="clientes-titulo">
+          Algumas Empresas que Confiam em Nosso Trabalho
+        </h3>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente01.svg" alt="" />
+          <img src="./img/clientes/cliente02.svg" alt="" />
+        </div>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente03.svg" alt="" />
+          <img src="./img/clientes/cliente04.svg" alt="" />
+        </div>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente05.svg" alt="" />
+          <img src="./img/clientes/cliente06.svg" alt="" />
+        </div>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente07.svg" alt="" />
+          <img src="./img/clientes/cliente08.svg" alt="" />
+        </div>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente09.svg" alt="" />
+          <img src="./img/clientes/cliente10.svg" alt="" />
+        </div>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente11.svg" alt="" />
+          <img src="./img/clientes/cliente12.svg" alt="" />
+        </div>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente13.svg" alt="" />
+          <img src="./img/clientes/cliente14.svg" alt="" />
+        </div>
+        <div class="clientes-bloco">
+          <img src="./img/clientes/cliente15.svg" alt="" />
+          <img src="./img/clientes/cliente16.svg" alt="" />
+        </div>
+      </section>
     </main>
     <footer>
-        
+      <h2>Onde me encontrar</h2>
+      <div class="social-links">
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-brands fa-google"></i>
+        </a>
+      </div>
     </footer>
-</body>
+    <script
+      src="https://kit.fontawesome.com/ee9ee94d8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
