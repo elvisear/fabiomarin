@@ -2,7 +2,7 @@ window.onscroll = function () {
   scroll();
 };
 function scroll() {
-  const btn = document.getElementById("topo");
+  const btn = document.getElementById("btn-topo");
   if (document.documentElement.scrollTop > 200) {
     btn.style.display = "block";
   } else {
