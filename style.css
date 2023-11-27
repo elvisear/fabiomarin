@@ -248,6 +248,12 @@ strong {
   height: 276px;
   padding: 24px 24px 50.99px 24px;
   gap: 23.99px;
+  transition: all 0.5s;
+}
+
+.solucoes-cards:hover{
+  transform: scale(1.2);
+  transition: all 0.5s;
 }
 
 .solucoes-cards h4 {
